@@ -20,7 +20,7 @@
 }
 
 body {
-    background-image: url(../Imagens/wallpapers/plano_de_fundo_03.gif);
+    background-image: url(../Imagens/wallpapers/wallpaper.gif);
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -104,12 +104,6 @@ body {
     text-decoration-color: var(--color-06);
     text-decoration-thickness: 0.2vw;
 }
-
-.cabecalho .blocoTerra:hover {
-    transform: scale(1.2);
-    margin-top: 0.4vw;
-}
-
 .container a,
 .fundo h1 {
     text-decoration: none;
@@ -375,7 +369,7 @@ footer {
     flex-direction: column;
 }
 
-footer .social-links {
+footer .social_links {
     display: flex;
     flex-direction: column;
     gap: 1.5vw;
